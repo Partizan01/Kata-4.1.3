@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: local("TT Lakes"),
+    url(assets/fonts/TTLakes-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: local("TT Lakes"),
+    url(assets/fonts/TTLakes-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: local("TT Lakes"), url(assets/fonts/TTLakes-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+html,
+body {
+  font-family: "TT Lakes", sans-serif;
+  background: #f8f8f8;
+  color: #1b1c21;
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.aside {
+    width: 320px;
+    height: 100%;
+}
+
+.list__button {
+  background-color: #ff3e79;
+  border-radius: 50%;
+  padding: 10px;
+  border: #ff3e79;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.list__button:hover {
+    opacity: 0.7;
+  }
+.list__button-search {
+  background-image: url(assets/icon_search.png);
+}
+.list__button-close {
+  background-image: url(assets/icon_close.png);
+}
+.list__button-phone {
+  background-image: url(assets/icon-phone.png);
+}
+.list__button-comment {
+  background-image: url(assets/icon-comment.png);
+}
+.list__button-person {
+  background-image: url(assets/icon-person.png);
+}
+.aside-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  margin-top: 10px;
+ 
+}
+.list__logo {
+    margin-left: -90px;
+
+}
+.aside-footer{
+    position: fixed;
+    bottom: 20px;
+    margin-left: 15px;
+}
+.aside-footer__phone {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.aside-footer__buttons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+.aside-footer__mail {
+    margin-bottom: 20px;
+}
+.languages{
+    display: flex;
+    gap: 10px;  
+    font-weight: bold;
+}
+.languages a:hover {
+    font-weight: 500;
+}
+.aside-main__menu li:hover {
+    font-weight: 500;
+    border-left: 4px solid #41F6D7;
+    padding-left: 10px;
+}
+.aside-main__menu li {
+    margin-left: 0;
+    border-left: 4px solid transparent;
+    padding-left: 10px;
+}
