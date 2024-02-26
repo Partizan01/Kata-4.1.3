@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "TT Lakes";
+  src: local("TT Lakes"),
+    url(assets/fonts/TTLakes-Regular.ttf) format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: local("TT Lakes"),
+    url(assets/fonts/TTLakes-Medium.ttf) format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "TT Lakes";
+  src: local("TT Lakes"), url(assets/fonts/TTLakes-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+html,
+body {
+  font-family: "TT Lakes", sans-serif;
+  background: #f8f8f8;
+  color: #1b1c21;
+  margin: 0;
+}
+.aside {
+  width: 320px;
+  height: 100vh;
+  box-shadow: 0 0 52px #454f7e;
+  position: relative;
+}
+
+.list__button {
+  background-color: #ff3e79;
+  border-radius: 50%;
+  padding: 10px;
+  border: #ff3e79;
+  width: 40px;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.list__button:hover {
+  opacity: 0.7;
+  transition-duration: 0.5s;
+}
+.list__button-search {
+  background-image: url(assets/icon_search.png);
+}
+.list__button-close {
+  background-image: url(assets/icon_close.png);
+}
+.list__button-phone {
+  background-image: url(assets/icon-phone.png);
+}
+.list__button-comment {
+  background-image: url(assets/icon-comment.png);
+}
+.list__button-person {
+  background-image: url(assets/icon-person.png);
+}
+.aside__aside-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  padding: 10px 10px 0 0;
+}
+.list__logo {
+  margin-left: -90px;
+}
+.aside__aside-footer {
+  position: absolute;
+  bottom: 20px;
+  margin-left: 15px;
+}
+.aside-footer__phone {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.list {
+  display: flex;
+  gap: 15px;
+}
+.aside-footer__mail {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.languages {
+  display: flex;
+  gap: 10px;
+  font-weight: bold;
+}
+.languages a:hover {
+  font-weight: 500;
+}
+.aside-main__menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.aside-main__menu li:hover {
+  font-weight: 500;
+  border-left: 4px solid #41f6d7;
+  padding-left: 10px;
+}
+.aside-main__menu li {
+  margin-left: 0;
+  border-left: 4px solid transparent;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.link {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
